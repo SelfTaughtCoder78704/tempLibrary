@@ -22,14 +22,3 @@
     {/if}
   </div>
 </div>
-
-<style>
-  .content-block {
-    padding: 10px 20px;
-
-    text-align: left;
-    margin-right: auto;
-    margin-left: auto;
-    max-width: 1440px;
-  }
-</style>
