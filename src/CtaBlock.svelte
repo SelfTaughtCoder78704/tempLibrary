@@ -29,6 +29,7 @@
     margin-left: auto;
 
     .cta-fine-print {
+      display:block;
       margin-top: 15px;
       text-align: center;
     }
