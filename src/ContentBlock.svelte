@@ -1,5 +1,5 @@
 <script>
-  import CtaBlock from "../shared/CtaBlock.svelte";
+  import CtaBlock from "./CtaBlock.svelte";
 
   export let contentBlockContent = {};
 </script>
