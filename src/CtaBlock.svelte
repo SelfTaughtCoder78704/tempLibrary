@@ -40,20 +40,20 @@
 
   .btn {
     -webkit-appearance: none;
-    padding: s(2.5);
+    padding: 1rem;
     display: inline-block;
-    background: $primary;
-    color: $white;
+    background: rgb(204, 202, 202);
+    color: white;
     font-size: s(2);
     line-height: 1;
     text-align: center;
     text-decoration: none;
     font-family: $font-button;
-    transition: color 300ms, border-color 300ms, background-color 300ms;
+    transition: color 300ms, black 300ms, grey 300ms;
 
     &:hover {
-      background: lighten($primary, 8%);
-      color: $white;
+      background: rgb(182, 180, 180);
+      color: white;
     }
 
     &:focus {
