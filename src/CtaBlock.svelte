@@ -22,3 +22,48 @@
     {/if}
   </div>
 </div>
+
+<style type="text/scss">
+  .cta-block {
+    margin-right: auto;
+    margin-left: auto;
+
+    .cta-fine-print {
+      margin-top: 15px;
+      text-align: center;
+    }
+  }
+
+  .cta-wrapper {
+    display: inline-block;
+  }
+
+  .btn {
+    -webkit-appearance: none;
+    padding: s(2.5);
+    display: inline-block;
+    background: $primary;
+    color: $white;
+    font-size: s(2);
+    line-height: 1;
+    text-align: center;
+    text-decoration: none;
+    font-family: $font-button;
+    transition: color 300ms, border-color 300ms, background-color 300ms;
+
+    &:hover {
+      background: lighten($primary, 8%);
+      color: $white;
+    }
+
+    &:focus {
+      outline: none;
+      box-shadow: none;
+    }
+  }
+
+  .btn-small {
+    font-size: s(1.5);
+    padding: s(2);
+  }
+</style>
