@@ -63,7 +63,7 @@
   }
 
   .btn-small {
-    font-size: s(1.5);
-    padding: s(2);
+    font-size: 14px;
+    padding: 1rem;
   }
 </style>
