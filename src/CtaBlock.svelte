@@ -44,11 +44,11 @@
     display: inline-block;
     background: rgb(204, 202, 202);
     color: white;
-    font-size: s(2);
+    font-size: 14px;
     line-height: 1;
     text-align: center;
     text-decoration: none;
-    font-family: $font-button;
+    font-family: sans-serif;
     transition: color 300ms, black 300ms, grey 300ms;
 
     &:hover {
